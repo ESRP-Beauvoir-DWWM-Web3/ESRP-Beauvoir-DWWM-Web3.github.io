@@ -5,19 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body cz-shortcut-listen="true">
     <div class="bgimg-1">
-        <div class="header">
-            <a href="#part1">expérience professionnelle</a>
-            <a href="#part2">autres expériences</a>
-            <a href="#part3">compétences</a>
-
-        </div>
+            <nav class="navbar navbar-expand-xxl header">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">expérience professionnelle</a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link active" aria-current="page" href="#">autres expériences</a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link active" aria-current="page" href="#">compétences</a>
+                            </li>
+                        </ul>
+                        <div class="text-end">
+                            <a href="" onClick="javascript:document.location.reload(true)">Changer les images</a>
+                        </div>
+                                </div>
+                </div>
+            </nav>
         <div class="caption">
-            <span class="border">Bienvenue sur mon CV</span>
+            <span class="titre">Bienvenue</span>
         </div>
     </div>
     <div class="experience color0">
@@ -26,7 +47,7 @@
     </div>
     <div id="part1" class="bgimg-2">
         <div class="caption">
-            <span class="border">Mon expérience professionnelle</span>
+            <span class="titre">Mon expérience professionnelle</span>
         </div>
     </div>
     <div class="main_part">
@@ -59,7 +80,7 @@
     </div>
     <div id="part2" class="bgimg-3">
         <div class="caption">
-            <span class="border">Autres expériences</span>
+            <span class="titre">Autres expériences</span>
         </div>
     </div>
     <div class="main_part">
@@ -90,7 +111,7 @@
     </div>
     <div id="part3" class="bgimg-4">
         <div class="caption">
-            <span class="border">Mes compétences</span>
+            <span class="titre">Mes compétences</span>
         </div>
     </div>
     <div class="main_part">
@@ -126,14 +147,19 @@
     </div>
     <div class="bgimg-1">
         <div class="caption">
-            <span class="border">Merci d'avoir consulté mon site, à bientôt.</span>
+            <span class="titre">Merci d'avoir consulté mon site, à bientôt.</span>
         </div>
         <div class="footer">
             <div>
-                Ces images sont générées aléatoirement, n'y voyez rien de symbolique... Vous pouvez les modifier en <a href="" onClick="javascript:document.location.reload(true)">rafraîchissant cette page</a>
+                Ces images sont générées aléatoirement. Vous pouvez les modifier en <a href="" onClick="javascript:document.location.reload(true)">rafraîchissant cette page</a>
             </div>
-            <a href="#">Revenir en haut</a>
+            <div>&copy GiBo-2022 <i>thanks to Lorem Picsum</i><p><a href="https://github.com/ESRP-Beauvoir-DWWM-Web3/ESRP-Beauvoir-DWWM-Web3.github.io" target="_blank">Voir le code</p></div>
+            <div><a href="#">Revenir en haut</a></div>
         </div>
     </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -20,17 +20,17 @@ h1 {
 
 .bgimg-2 {
     background-image: url("https://picsum.photos/1000/1000?random=2");
-    min-height: 800px;
+    min-height: 100vh;
 }
 
 .bgimg-3 {
     background-image: url("https://picsum.photos/1000/1000?random=3");
-    min-height: 800px;
+    min-height: 100vh;
 }
 
 .bgimg-4 {
     background-image: url("https://picsum.photos/1000/1000?random=4");
-    min-height: 800px;
+    min-height: 100vh;
 }
 
 
@@ -62,7 +62,7 @@ h1 {
     color: #000;
 }
 
-.caption span.border {
+.caption span.titre {
     background-color: rgb(0,0,0,0.7);
     color: #fff;
     padding: 18px;
@@ -109,20 +109,18 @@ div.color3 div {
 }
 
 .header {
-    position: absolute;
-    left: 0;
-    top: 0;
-    text-align: end;
-    background-color: rgb(0,0,0,0.7);
-    color: #fff;
+    background-color: rgb(0,0,0,0.7) !important;
     padding: 2em 4em;
     width: 100%;
+}
+
+.navbar-nav {
     display: flex;
     justify-content: space-evenly;
 }
 
-.header a {
-    color: #fff;
+.nav-link {
+    color: #fff !important;
     text-decoration: none;
     font-size: 1em;
     text-transform: uppercase;
@@ -133,7 +131,7 @@ div.color3 div {
     position: absolute;
     left: 0;
     bottom: 0;
-    text-align: end;
+    text-align: center;
     background-color: rgb(0,0,0,0.7);
     color: #fff;
     padding: 2em 4em;
@@ -141,4 +139,12 @@ div.color3 div {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+}
+
+.footer div {
+    width: 30%;
+}
+
+.footer i {
+    font-style: italic;
 }
