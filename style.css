@@ -1,10 +1,11 @@
 body, html {
-    font: 400 15px/1.8 "Lato", sans-serif;
+    font: 800 15px/1.8 "Lato", sans-serif;
     color: #777;
     height: 100%;
 }
 
 h1 {
+    text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
     font: "Lato", sans-serif;
@@ -18,17 +19,17 @@ h1 {
 
 .bgimg-2 {
     background-image: url("https://picsum.photos/id/238/1000/1000.jpg");
-    min-height: 400px;
+    min-height: 800px;
 }
 
 .bgimg-3 {
     background-image: url("https://picsum.photos/id/239/1000/1000.jpg");
-    min-height: 400px;
+    min-height: 800px;
 }
 
 .bgimg-4 {
     background-image: url("https://picsum.photos/id/240/1000/1000.jpg");
-    min-height: 400px;
+    min-height: 800px;
 }
 
 
@@ -40,6 +41,10 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.main_part {
+    position: relative;
 }
 
 .caption {
@@ -69,6 +74,11 @@ h1 {
     text-align:center;
     padding:2em 4em;
     text-align: justify;
+}
+
+.color0 {
+    background-color:white;
+    color: #777
 }
 
 .color1 {
