@@ -1,5 +1,5 @@
 body, html {
-    font: 800 15px/1.8 "Lato", sans-serif;
+    font: 800 "Lato", sans-serif;
     color: #777;
     height: 100%;
     scroll-behavior: smooth;
@@ -63,11 +63,15 @@ h1 {
 }
 
 .caption span.titre {
+    display: block;
+    overflow-wrap: break-word;
     background-color: rgb(0,0,0,0.7);
     color: #fff;
-    padding: 18px;
+    padding: 1em;
+    margin: auto;
     font-size: 2em;
     letter-spacing: 10px;
+    width: 80%;
 }
 
 .experience{
@@ -94,6 +98,7 @@ a {
 
 .color1 {
     background-color:#282E34;
+    color: white;
 }
 
 .color2 {
@@ -137,7 +142,7 @@ div.color3 div {
     padding: 2em 4em;
     width: 100%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -148,3 +153,20 @@ div.color3 div {
 .footer i {
     font-style: italic;
 }
+
+
+@media screen and (max-width: 500px) {
+    .caption span.titre {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .nav-link {
+        font-size: 0.8em;
+    }
+
+    .footer div {
+        width: 100%;
+    }
+    
+  }
